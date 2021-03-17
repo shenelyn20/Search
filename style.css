@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+a{
+    margin: 20px 50px 0 0;
+    font-weight: lighter;
+    font: 13px arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+hr{
+    border: 0.5px solid #f0f0f0;
+}
+
+span{
+    font: 11px monospace;
+    color: #666;
+}
+
+#images-google-logo{
+    top: 65%;
+    left: 79%;
+    position: relative;
+    color: #4285f4;
+    font: 16px arial, sans-serif;
+}
+
+#search-icon{
+    margin: 2% 2% 0%;
+}
+
+#images-search-icon{
+    position: relative; /* clickable */
+    border: none;
+    background-color: transparent;
+    float: right;
+    margin: 1.5% 2.5%;
+}
+
+#images-search-icon:hover {
+    cursor: pointer;
+}
+
+#advanced-search-header{
+    color: #d93025;
+    font: 20px arial, sans-serif;
+    width: 100%;
+    padding: 8px 0 8px 45px;
+    
+}
+.header{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.google-logo{
+    background: url("img/googlelogo.png");
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.google-logo-header{
+    background-color: #f1f1f1;
+}
+
+.google-logo-header > div{
+    margin-top: 1.2%;
+    padding: 0 0 3.2% 86.2%;
+}
+
+.input-container{
+    position: relative;
+    margin: 25px;
+    border:1px solid #dfe1e5;
+    border-radius: 25px;
+    width: 50%;
+    height: 45px;
+}
+
+.input-container:hover {
+    box-shadow: 0.5px 1px 5px rgba(0,0,0,0.19);
+}
+
+.text-input {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    outline: none; /* No blue border outline when typing input */
+    font-size: 15px;
+}
+
+.submit-button{
+    background-color:#f8f9fa;
+    border: none;
+    color: black;
+    padding: 11px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 1.5px rgba(0,0,0,0.15);
+}
+
+.form-wrapper{
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    width: 85%;
+    padding-bottom: 7px;
+    padding-left: 25px;
+}
+
+.form-row > label {
+    flex: 1;
+    font: 13px arial, sans-serif;
+}
+
+.form-row > input[type=text] {
+    flex: 3;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    border-radius: 1px;
+    height: 28px;
+    font-size: 13px;
+    background: transparent;
+}
+
+.form-row > input[type=text]:focus {
+    outline: 1px solid #037bfc;
+}
+
+.form-row > p {
+    flex: 2;
+    padding-left: 17px;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    color: #555;
+}
+
+.form-row > input[type=submit] {
+    font: 11px arial, sans-serif;
+    font-weight: bold;
+    padding: 8px 13px;
+    color: #ffffff;
+    background-color: #4787ee;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    margin-top: 1%;
+    margin-right: 34%;
+}
+
+.form-row > input[type=submit]:hover {
+    border-color: #3246a8;
+}
+
+p.find-pages-text{
+    flex:4;
+    padding:0;
+    font: 16px arial, sans-serif;
+    color:black;
+}
+
+p.todo-text{
+    font: 13px arial, sans-serif;
+    font-weight: bold;
+    color: #777;
+}
