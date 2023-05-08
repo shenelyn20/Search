@@ -34,3 +34,7 @@
   </li>
   <li>The CSS you write should resemble Google’s own aesthetics.</li>
 </ol> 
+
+******
+
+The specifications for this project was based on an online course offered by edX: [CS50’s Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/).
