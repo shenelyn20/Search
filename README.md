@@ -1,5 +1,5 @@
 # Search
-### This project is created using HTML and CSS to copy the design for a front-end for Google Search, Google Image Search, and Google Advanced Search.
+### This project was created using HTML and CSS to copy the design for a front-end for Google Search, Google Image Search, and Google Advanced Search.
 
 <ol>
   <li>The website should have at least three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.    
